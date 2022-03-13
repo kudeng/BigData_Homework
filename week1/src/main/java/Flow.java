@@ -53,13 +53,18 @@ public class Flow implements Writable {
     }
 
     @Override
-    public int hashCode() {
-        final int prime = 31;
-        int result = 1;
-        result = prime * result + Integer.hashCode(up);
-        result = prime * result + (int)(down ^ (down >>> 32));
-        return result;
+    public String toString() {
+        return up + "\t" + down + "\t" + total;
     }
+
+//    @Override
+//    public int hashCode() {
+//        final int prime = 31;
+//        int result = 1;
+//        result = prime * result + Integer.hashCode(up);
+//        result = prime * result + (int)(down ^ (down >>> 32));
+//        return result;
+//    }
 
 //    @Override
 //    public int compareTo(Flow o) {
