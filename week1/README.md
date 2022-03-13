@@ -11,7 +11,7 @@ Mapper和Reducer在src/main/java/FlowCount.java中展示
 
 
 ## 实验结果
-[实验结果](!Result.png)
+![实验结果](Result.png)
 
 ## 遇到的问题和经验
 随后补充
